@@ -1,0 +1,184 @@
+// Body
+$body-bg: #f8fafc;
+
+// Typography
+$font-family-sans-serif: 'Nunito', sans-serif;
+$font-size-base: 0.9rem;
+$line-height-base: 1.6;
+
+// Colors
+$blue: #3490dc;
+$indigo: #6574cd;
+$purple: #9561e2;
+$pink: #f66d9b;
+$red: #e3342f;
+$orange: #f6993f;
+$yellow: #ffed4a;
+$green: #38c172;
+$teal: #4dc0b5;
+$cyan: #6cb2eb;
+
+//Paddings
+@for $i from 0 through 10{
+    .p#{$i}{padding: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .p#{$i}{padding: #{$i}px;}
+    $i : $i+5;
+}
+//Padding Top
+@for $i from 0 through 10{
+    .pt#{$i}{padding-top: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .pt#{$i}{padding-top: #{$i}px;}
+    $i : $i+5;
+}
+//Padding Right
+@for $i from 0 through 10{
+    .pr#{$i}{padding-right: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .pr#{$i}{padding-right: #{$i}px;}
+    $i : $i+5;
+}
+//Padding Bottom
+@for $i from 0 through 10{
+    .pb#{$i}{padding-bottom: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .pb#{$i}{padding-bottom: #{$i}px;}
+    $i : $i+5;
+}
+//Padding Left
+@for $i from 0 through 10{
+    .pl#{$i}{padding-left: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .pl#{$i}{padding-left: #{$i}px;}
+    $i : $i+5;
+}
+
+//Margins
+@for $i from 0 through 10{
+    .m#{$i}{margin: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .m#{$i}{margin: #{$i}px;}
+    $i : $i+5;
+}
+//Margin Top
+@for $i from 0 through 10{
+    .mt#{$i}{margin-top: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .mt#{$i}{margin-top: #{$i}px;}
+    $i : $i+5;
+}
+//Margin Right
+@for $i from 0 through 10{
+    .mr#{$i}{margin-right: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .mr#{$i}{margin-right: #{$i}px;}
+    $i : $i+5;
+}
+//margin Bottom
+@for $i from 0 through 10{
+    .mb#{$i}{margin-bottom: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .mb#{$i}{margin-bottom: #{$i}px;}
+    $i : $i+5;
+}
+//Margin Left
+@for $i from 0 through 10{
+    .ml#{$i}{margin-left: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .ml#{$i}{margin-left: #{$i}px;}
+    $i : $i+5;
+}
+
+//Margins
+@for $i from 0 through 10{
+    .b#{$i}{border: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .b#{$i}{border: #{$i}px;}
+    $i : $i+5;
+}
+//Margin Top
+@for $i from 0 through 10{
+    .bt#{$i}{border-top: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .bt#{$i}{border-top: #{$i}px;}
+    $i : $i+5;
+}
+//Border Right
+@for $i from 0 through 10{
+    .br#{$i}{border-right: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .br#{$i}{border-right: #{$i}px;}
+    $i : $i+5;
+}
+//Border Bottom
+@for $i from 0 through 10{
+    .bb#{$i}{border-bottom: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .bb#{$i}{border-bottom: #{$i}px;}
+    $i : $i+5;
+}
+//Border Left
+@for $i from 0 through 10{
+    .bl#{$i}{border-left: #{$i}px;}
+}
+$i: 15;
+@while $i<=100{
+    .bl#{$i}{border-left: #{$i}px;}
+    $i : $i+5;
+}
+//Border Radius
+@for $i from 0 to 10{
+    .bradius#{$i}{border-radius: #{$i}px;}
+}
+//Border Radius Top Right
+@for $i from 0 to 10{
+    .btrradius#{$i}{border-top-right-radius: #{$i}px;}
+}
+//Border Radius Top Left
+@for $i from 0 to 10{
+    .btlradius#{$i}{border-top-left-radius: #{$i}px;}
+}
+//Border Radius Bottom Right
+@for $i from 0 to 10{
+    .bbrradius#{$i}{border-bottom-right-radius: #{$i}px;}
+}
+//Bottom Radius Bottom Left
+@for $i from 0 to 10{
+    .bblradius#{$i}{border-bottom-left-radius: #{$i}px;}
+}
+.bradius50{border-radius: 50%;}
+.btrradius50{border-top-right-radius: 50%;}
+.btlradius50{border-top-left-radius: 50%;}
+.bbrradius50{border-bottom-right-radius: 50%;}
+.bblradius50{border-bottom-left-radius: 50%;}
+//Border Styles
+.bstyle-solid{ border-style: solid};
